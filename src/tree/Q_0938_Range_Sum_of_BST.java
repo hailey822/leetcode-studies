@@ -11,7 +11,7 @@ import java.util.Stack;
  * 2. Do BFS with condition 
  *
  */
-public class Q_0935_Range_Sum_of_BST {
+public class Q_0938_Range_Sum_of_BST {
 	public int rangeSumBST(TreeNode root, int low, int high) {
 		int sum = 0;
 		Stack<TreeNode> s = new Stack<>();

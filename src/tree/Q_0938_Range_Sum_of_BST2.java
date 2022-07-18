@@ -13,7 +13,7 @@ import java.util.Stack;
  * 5. root val is larger than high, only search left tree
  * 6. return sum
  */
-public class Q_0935_Range_Sum_of_BST2 {
+public class Q_0938_Range_Sum_of_BST2 {
 	public int rangeSumBST(TreeNode root, int low, int high) {
 		if(root == null) return 0;
 		if(root.val < low) return rangeSumBST(root.right, low, high);
