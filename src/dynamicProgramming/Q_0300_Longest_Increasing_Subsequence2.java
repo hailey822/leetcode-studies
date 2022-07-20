@@ -10,7 +10,16 @@ import java.util.Arrays;
  * 
  * T(NlogN)
  * 
+ * Collestions.binarySearch
+ * 	- exists => idx
+ * 	- not => insertionPoint
+ * 		abs(idx+1) => iP
  * 
+ * Strictyl Increasing array 
+ * 1) Add at new position
+ * 2) Override
+ * 
+ * return array size
  *
  */
 
